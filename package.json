@@ -1,0 +1,37 @@
+{
+  "name": "babel-polyfill-loader",
+  "version": "1.0.0",
+  "description": "A webpack loader that generates a customized babel polyfill",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junyper/babel-polyfill-loader.git"
+  },
+  "author": "Jennifer Stern",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/junyper/babel-polyfill-loader/issues"
+  },
+  "homepage": "https://github.com/junyper/babel-polyfill-loader#readme",
+  "devDependencies": {
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
+    "standard-version": "^4.2.0"
+  },
+  "dependencies": {
+    "core-js-builder": "^2.4.1",
+    "loader-utils": "^1.1.0"
+  },
+  "peerDependencies": {
+    "webpack": "^2.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

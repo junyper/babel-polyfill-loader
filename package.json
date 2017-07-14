@@ -1,6 +1,6 @@
 {
   "name": "babel-polyfill-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A webpack loader that generates a customized babel polyfill",
   "main": "index.js",
   "scripts": {
